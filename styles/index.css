@@ -66,3 +66,38 @@
     background-image: url(../Assets/Hero-bg.png);
     
 }
+
+/* action section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    align-items: center;
+}
+
+main section img{
+    height: 320px;
+    width: 400px;
+    border-radius: 45px;
+}
+
+.section-collection-container{
+    width: 500px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0px;
+}
+
+.section-description{
+    font-size: 24px;
+    color: #252432;
+    margin-top: 23px;
+    margin-bottom: 23px
+}
