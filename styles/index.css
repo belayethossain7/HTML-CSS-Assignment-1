@@ -1,4 +1,8 @@
+body{
+    background-color: rgba(142, 138, 232, 0.1);
+}
 /* font style */
+
 .inter-normal-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -79,7 +83,7 @@ main{
     align-items: center;
 }
 
-main section img{
+.wc-mini{
     height: 320px;
     width: 400px;
     border-radius: 45px;
@@ -134,4 +138,70 @@ main section img{
     margin-top: 0px;
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+}
+
+/* feedback style user */
+
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 24px;
+}
+
+.feedback-items{
+    width: 360px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.user-avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+}
+
+.user-name{
+    
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.date{
+    margin-top: 2px;
+    font-size: 10px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.image-section{
+    margin-bottom: 0px;
+}
+
+.card-title{
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.card-description{
+    margin-top: 8px;
+}
+
+.feed-container{
+    display: flex;
+    gap: 20px;
+}
+
+.feedback-section{
+    margin-top: 130px;
+}
+.feedback-title{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
 }
