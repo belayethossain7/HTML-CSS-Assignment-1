@@ -19,6 +19,16 @@ body{
     color: #FFFFFF;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.4s;
+}
+
+.primary-btn:hover{
+    padding: 17px 41px;
+    background-color: #47ff6c;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 .txt-dec{
     text-decoration: none;
